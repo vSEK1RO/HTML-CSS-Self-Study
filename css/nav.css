@@ -71,6 +71,7 @@
     }
 
     .sticky{
+        filter: blur(10px);
         position: fixed;
         top: 0;
         width: 100%;
@@ -391,7 +392,8 @@
 @media screen and (max-width: 900px) {
 
     .menu_mobile{
-        z-index: 10;
+        margin-top: -40px;
+        z-index: 1;
         position: fixed;
         color: #fff;
         text-decoration: none;
@@ -410,7 +412,7 @@
     }
 
     .menu_mobile .img{
-        background-image: url(..//img/mephi_logo.png);
+        background-image: url(..//img/mephi_logo_m.png);
         background-size: cover;
     }
     
@@ -457,12 +459,7 @@
 
     .menu_logo .img{
         height: 40px;
-        width: 40px;
-        transition: 0.2s;
-    }
-    
-    .menu_logo .img:hover{
-        transform: rotate(-360deg);
+        width: 90px;
         transition: 0.2s;
     }
 
@@ -477,7 +474,7 @@
         position: fixed;
         display: flex;
         transition: 0.4s;
-        margin-top: 50px;
+        margin-top: 10px;
         flex-direction: column;
         height: 0%;
         width: 100%;
