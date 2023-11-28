@@ -5,7 +5,6 @@
         margin-top: -3px;
         display: flex;
         justify-content: center;
-        background-image: url(../img/nav.png);
         background-color: #78487a8e;
         background-size: cover;
     }
@@ -401,7 +400,6 @@
         text-decoration: none;
         font-weight: 700;
         display: flex;
-        background-image: url(../img/nav.png);
         background-color: #78487a;
         background-size: cover;
         font-size: 16px;

@@ -10,10 +10,13 @@
     padding: 20px;
  }
  .post-item-wrap {
+    border-radius: 15px;
     background: #F7F7F2;
     position: relative;
  }
  .post-item-wrap:after {
+   transform: rotate(1deg);
+   border-radius: 15px;
     content: "";
     position: absolute;
     top: 0;
@@ -22,14 +25,13 @@
     height: 100%;
     z-index: -1;
     background: rgb(96, 5, 85);
-    transform: rotate(1deg);
     transform-origin: left bottom;
     transition: .3s ease-in-out;
  }
  .post-item-wrap:hover:after {
     top: 5px;
     left: 5px;
-    transform: rotate(2deg);
+    transform: rotate(3deg);
  }
  .post-link {
     text-decoration: none;
@@ -45,6 +47,7 @@
     color: rgb(96, 5, 85);
  }
  .post-img {
+   border-radius: 15px;
    width: 100%;
 }
  .post-content {
