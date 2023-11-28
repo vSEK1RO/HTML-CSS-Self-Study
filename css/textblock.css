@@ -6,6 +6,7 @@
     flex-wrap: wrap;
  }
  .post-item {
+   max-width: 80%;
     padding: 20px;
  }
  .post-item-wrap {
@@ -43,15 +44,13 @@
  .post-item-wrap:hover .post-title {
     color: rgb(96, 5, 85);
  }
+ .post-img {
+   width: 100%;
+}
  .post-content {
-    color: #A69888;
+    color: #7f7569;
     font-size: 14px;
- }
- @media (min-width: 768px) {
-    .post-item {
-       flex-basis: 50%;
-       flex-shrink: 0;
-    }
+    line-height: 160%;
  }
  @media (min-width: 960px) {
     .post-item {
