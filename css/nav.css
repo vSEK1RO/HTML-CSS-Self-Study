@@ -1,0 +1,591 @@
+@media screen and (min-width: 901px) {
+    .menu{
+        width: 100%;
+        margin-top: -3px;
+        display: flex;
+        justify-content: center;
+        background-image: url(../img/nav.png);
+        background-color: #78487a8e;
+        background-size: cover;
+    }
+
+    .menu .img{
+        background-image: url(../img/mephi_logo.png);
+        background-size: cover;
+    }
+
+    .menu a{
+        transition: 0.2s;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    .menu a:hover{
+        transition: 0.2s;
+        text-decoration: underline;
+    }
+
+    .menu a:hover i{
+        transition: 0.2s;
+    }
+
+    .menu a:hover .fa-music{
+        color: rgb(255, 216, 157);
+    }
+
+    .menu a:hover .fa-earth-americas{
+        color: rgb(62, 178, 255);
+    }
+
+    .menu a:hover .fa-heart{
+        color: rgb(255, 124, 163);
+    }
+
+    .menu a:hover .fa-right-to-bracket{
+        color: rgb(124, 255, 157);
+    }
+
+    .menu_center a, .menu_right a{
+        display: block;
+        height: 100%
+    }
+
+    .menu_center{
+        display: flex;
+    }
+
+    .menu_1, .menu_2, .menu_3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu_left .img{
+        position: absolute;
+        transition: 0.2s;
+    }
+
+    .menu_left .img:hover{
+        transition: 0.2s;
+        transform: rotate(-360deg);
+    }
+
+    .sticky{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 3840px) {
+        
+        .menu{
+            height: 3.54vw;
+        }
+
+        .menu a{
+            font-size: 1.24vw;
+            text-shadow: 0px 0.2vw 0.16vw rgba(0,0,0,0.4),
+                        0px 0.41vw 0.68vw rgba(0,0,0,0.1),
+                        0px 0.94vw 1.2vw rgba(0,0,0,0.1);
+        }
+
+        .menu a:hover{
+            text-decoration-thickness: 0.16vw;
+            text-underline-offset: 0.26vw;
+            font-size: 1.35vw;
+        }
+
+        .menu a:hover i{
+            font-size: 1.87vw;
+        }
+
+        .menu i{
+            font-size: 1.77vw;
+            margin-right: 0.52vw;
+        }
+
+        .menu_center{
+            margin-right:5.21vw;
+            margin-left:5.21vw;
+        }
+
+        .menu_1, .menu_2, .menu_3{
+            margin-right:1.04vw;
+            margin-left:1.04vw;
+        }
+
+        .menu_content{
+            padding-top: 0.83vw;
+        }
+
+        .menu_left .img{
+            height: 6.25vw;
+            width: 6.25vw;
+            margin-top:-1.3vw;
+        }
+
+        .menu_left .img:hover{
+            height: 7.29vw;
+            width: 7.29vw;
+            margin-top:-1.82vw;
+            margin-right:-0.52vw;
+            margin-left:-0.52vw;
+        }
+
+        .menu_left{
+            width: 6.25vw;
+        }
+
+        .sticky .menu_left .img{
+            margin-right:1.56vw;
+            margin-left:1.56vw;
+            margin-top:0.26vw;
+            width:3.12vw;
+            height:3.12vw;
+        }
+
+        .sticky .menu_left .img:hover{
+            margin-top:0px;
+            width:4.17vw;
+            height:4.17vw;
+            margin-left:1.04vw;
+        }
+
+    }
+
+    @media screen and (max-width: 1920px) {
+
+        .menu{
+            height: 68px;
+        }
+
+        .menu a{
+            font-size: 24px;
+            text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                        0px 8px 13px rgba(0,0,0,0.1),
+                        0px 18px 23px rgba(0,0,0,0.1);
+        }
+
+        .menu a:hover{
+            text-decoration-thickness: 3px;
+            text-underline-offset: 5px;
+            font-size: 26px;
+        }
+
+        .menu a:hover i{
+            font-size: 36px;
+        }
+
+        .menu i{
+            font-size: 34px;
+            margin-right: 10px;
+        }
+
+        .menu_center{
+            margin-right:100px;
+            margin-left:100px;
+        }
+
+        .menu_1, .menu_2, .menu_3{
+            margin-right:20px;
+            margin-left:20px;
+        }
+
+        .menu_content{
+            padding-top: 16px;
+        }
+
+        .menu_left .img{
+            height: 120px;
+            width: 120px;
+            margin-top:-25px;
+        }
+
+        .menu_left .img:hover{
+            height: 140px;
+            width: 140px;
+            margin-top:-35px;
+            margin-right:-10px;
+            margin-left:-10px;
+        }
+
+        .menu_left{
+            width: 120px;
+        }
+
+        .sticky .menu_left .img{
+            margin-right:30px;
+            margin-left:30px;
+            margin-top:5px;
+            width:60px;
+            height:60px;
+        }
+        .sticky .menu_left .img:hover{
+            margin-top:0px;
+            width:80px;
+            height:80px;
+            margin-left:20px;
+        }
+
+    }
+
+    @media screen and (max-width: 1100px) {
+
+        .menu{
+            height: 60px;
+        }
+
+        .menu a{
+            font-size: 20px;
+            text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                        0px 8px 13px rgba(0,0,0,0.1),
+                        0px 18px 23px rgba(0,0,0,0.1);
+        }
+
+        .menu_content{
+            padding-top: 14px;
+        }
+
+        .menu a:hover{
+            text-decoration-thickness: 3px;
+            text-underline-offset: 5px;
+            font-size: 24px;
+        }
+
+        .menu a:hover i{
+            font-size: 32px;
+        }
+
+        .menu i{
+            font-size: 30px;
+            margin-right: 10px;
+        }
+
+        .menu_center{
+            margin-right:50px;
+            margin-left:50px;
+        }
+
+        .menu_1, .menu_2, .menu_3{
+            margin-right:10px;
+            margin-left:10px;
+        }
+
+        .menu_left .img{
+            margin-top:-30px;
+        }
+
+        .menu_left .img:hover{
+            margin-top:-40px;
+        }
+
+        .sticky .menu_left .img{
+            margin-right:30px;
+            margin-left:30px;
+            margin-top:0px;
+            width:60px;
+            height:60px;
+        }
+        .sticky .menu_left .img:hover{
+            margin-top:0px;
+            width:70px;
+            height:70px;
+            margin-left:25px;
+        }
+
+    }
+
+    @media screen and (max-width: 960px) {
+        
+        .menu{
+            height: 6.25vw;
+        }
+
+        .menu a{
+            font-size: 2.08vw;
+            text-shadow: 0px 0.46vw 0.35vw rgba(0,0,0,0.4),
+                        0px 0.93vw 1.51vw rgba(0,0,0,0.1),
+                        0px 2.09vw 2.67vw rgba(0,0,0,0.1);
+        }
+
+        .menu a:hover{
+            text-decoration-thickness: 0.35vw;
+            text-underline-offset: 0.58vw;
+            font-size: 2.5vw;
+        }
+
+        .menu a:hover i{
+            font-size: 3.33vw;
+        }
+
+        .menu i{
+            font-size: 3.13vw;
+            margin-right: 1.04vw;
+        }
+
+        .menu_center{
+            margin-right:5.21vw;
+            margin-left:5.21vw;
+        }
+
+        .menu_1, .menu_2, .menu_3{
+            margin-right:1.04vw;
+            margin-left:1.04vw;
+        }
+
+        .menu_content{
+            padding-top: 1.46vw;
+        }
+
+        .menu_left .img{
+            height: 12.5vw;
+            width: 12.5vw;
+            margin-top:-3.1vw;
+        }
+
+        .menu_left .img:hover{
+            height: 14.58vw;
+            width: 14.58vw;
+            margin-top:-3.9vw;
+            margin-right:-1.04vw;
+            margin-left:-1.04vw;
+            transform: rotate(0deg);
+        }
+
+        .menu_left{
+            width: 12.5vw;
+        }
+
+        .sticky .menu_left .img{
+            margin-right:3.125vw;
+            margin-left:3.125vw;
+            margin-top:0px;
+            width:6.25vw;
+            height:6.25vw;
+        }
+
+        .sticky .menu_left .img:hover{
+            margin-top:0px;
+            width:7.29vw;
+            height:7.29vw;
+            margin-left:2.60vw;
+            transform: rotate(0deg);
+        }
+
+        .menu a{
+            transition: none;
+        }
+
+        .menu_left img{
+            transition: none;
+        }
+
+    }
+
+    #navbar_mobile{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .menu_mobile{
+        z-index: 10;
+        position: fixed;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        display: flex;
+        background-image: url(../img/nav.png);
+        background-color: #78487a;
+        background-size: cover;
+        font-size: 16px;
+        justify-content: space-between;
+        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                     0px 8px 13px rgba(0,0,0,0.1),
+                     0px 18px 23px rgba(0,0,0,0.1);
+        width: 100%;
+        height: 50px;
+    }
+
+    .menu_mobile .img{
+        background-image: url(..//img/mephi_logo.png);
+        background-size: cover;
+    }
+    
+    .menu_left{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .menu_text{
+        margin-top: 2px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu_right{
+        width: 60px;
+        overflow: hidden;
+    }
+
+    .menu_right button{
+        border: none;
+        background: none;
+        height: 100%;
+        width: 100%;
+        transition: 0.2s;
+    }
+
+    .menu_right button:hover{
+        cursor: pointer;
+        transition: 0.2s;
+        transform: rotate(-90deg);
+    }
+
+    .menu_right i{
+        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                     0px 8px 13px rgba(0,0,0,0.1),
+                     0px 18px 23px rgba(0,0,0,0.1);
+        color: #fff;
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .menu_logo .img{
+        height: 40px;
+        width: 40px;
+        transition: 0.2s;
+    }
+    
+    .menu_logo .img:hover{
+        transform: rotate(-360deg);
+        transition: 0.2s;
+    }
+
+    .menu_left a{
+        height: 100%;
+        width: 100%;
+    }
+
+    .menu_dropdown{
+        z-index: 10;
+        background-color: #5c3f58dc;
+        position: fixed;
+        display: flex;
+        transition: 0.4s;
+        margin-top: 50px;
+        flex-direction: column;
+        height: 0%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .menu_dropdown a{
+        text-decoration: none;
+        padding-top:8px;
+        padding-bottom:10px;
+        padding-left: 15px;
+        margin-top: 2px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .menu_dropdown a:hover{
+        border-radius: 15px;
+        background-color: #945b96;
+        transition: 0.2s;
+    }
+
+    .menu_content:hover{
+        transition: 0.2s;
+        text-decoration: underline;
+        font-size: 20px;
+        color: #fff;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4px;
+    }
+
+    .menu_content{
+        transition: 0.2s;
+        text-decoration: none;
+        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                     0px 8px 13px rgba(0,0,0,0.1),
+                     0px 18px 23px rgba(0,0,0,0.1);
+        color: rgb(182, 182, 182);
+        font-weight: 700;
+        font-size: 16px;
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+
+    .menu_content i{
+        transition: 0.2s;
+        margin-right: 5px;
+        font-size: 22px;
+    }
+
+    .menu_dropdown a:hover i{
+        transition: 0.2s;
+        font-size: 26px;
+    }
+
+    .menu_dropdown a:hover .menu_content{
+        transition: 0.2s;
+        text-decoration: underline;
+        font-size: 20px;
+        color: #fff;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4px;
+    }
+
+    .menu_dropdown a:hover .fa-music{
+        color: rgb(255, 216, 157);
+    }
+
+    .menu_dropdown a:hover .fa-earth-americas{
+        color: rgb(62, 178, 255);
+    }
+
+    .menu_dropdown a:hover .fa-heart{
+        color: rgb(255, 124, 163);
+    }
+
+    .menu_dropdown a:hover .fa-right-to-bracket{
+        color: rgb(124, 255, 157);
+    }
+
+    .DDButton{
+        border: none;
+        height: 100%;
+        width: 100%;
+        background: none;
+    }
+
+    .under_menu_dropdown{
+        display: none;
+        position: fixed;
+        z-index: 9;
+        height: 0vh;
+        width: 100vw;
+    }
+
+    .showDDButton{
+        height: 100vh;
+        display: flex;
+    }
+
+    .showDDContent{
+        height: 216px;
+        transition: 0.4s;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+}
+

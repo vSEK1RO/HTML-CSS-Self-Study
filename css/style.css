@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+head{
+	display: none;
+}
+
+body{
+    box-sizing: border-box;
+	font-family: 'Comfortaa', cursive;
+	font-size: 16px;
+	color: #fff;
+	line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 7680px) {
+	body{
+		background: url(../img/bg.jpg) repeat; 
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
+}

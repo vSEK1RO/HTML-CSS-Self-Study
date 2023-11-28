@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/parallax.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/fontawesome.css" type="text/css">
+	<link rel="stylesheet" href="css/solid.css" type="text/css">
+	<link rel="shortcut icon" href="img/mephi_logo.png">
+	<title>Home page</title>
+</head>
+<body>
+	<div class="header">
+		<!--Параллакс шапки-->
+		<div class="parallax">
+			<div class="bottomPicture">
+				<img src="img/headerBG.png" alt="adomappingBG">
+			</div>
+			<div class="frontPicture">
+				<img src="img/header.png" alt="adomapping">
+			</div>
+			<script src="js/parallax.js">                                                           
+			</script>
+		</div>
+		<!--Меню шапки-->
+		<div id="navbar">
+			<div class="menu">
+					<div class="menu_left">
+						<a href="#">
+							<div class="img">
+							</div>
+						</a>
+					</div>
+					<div class="menu_center">
+						<div class="menu_1">
+							<a href="#">
+								<div class="menu_content">
+									<i class="fa-sharp fa-solid fa-earth-americas" ></i>OSI & TCP/IP
+								</div>
+							</a>
+						</div>
+						<div class="menu_2">
+							<a href="#">
+								<div class="menu_content">
+									<i class="fa-solid fa-sitemap"></i>SOAP
+								</div>
+							</a>
+						</div>
+						<div class="menu_3">
+							<a href="#">
+								<div class="menu_content">
+									<i class="fa-solid fa-cloud-arrow-down"></i>REST
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="menu_right">
+						<a href="https://github.com/vSEK1RO/HTML-CSS-Self-Study">
+							<div class="menu_content c-githubq">
+								Github
+							</div>
+						</a>
+					</div>
+			</div>
+		</div>	
+		<div id="navbar_mobile">
+			<div class="menu_mobile">
+					<div class="menu_left">
+						<div class="menu_logo">
+							<a href="#">
+								<div class="img">
+								</div>
+							</a>
+						</div>
+						<div class="menu_text">
+							<div class="menu_text 1">Главная</div>
+							<div class="menu_text 2">страница</div>
+						</div>
+					</div>
+					<div class="menu_right">
+						<button onclick="DropDownFunction()" class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+					</div>	
+				</div>	
+				<div class="menu_dropdown" id="menu_dropdown">
+						<a href="https://github.com/vSEK1RO/HTML-CSS-Self-Study">
+							<div class="menu_content c-github">
+								Github
+							</div>
+						</a>
+						<a href="#">
+							<div class="menu_content">
+								<i class="fa-sharp fa-solid fa-earth-americas"></i>OSI & TCP/IP
+							</div>
+						</a>
+						<a href="#">
+							<div class="menu_content">
+								<i class="fa-solid fa-sitemap"></i>SOAP
+							</div>
+						</a>
+						<a href="#">
+							<div class="menu_content">
+								<i class="fa-solid fa-cloud-arrow-down"></i>REST
+							</div>
+						</a>
+				</div>
+				<div class="under_menu_dropdown" id="under_menu_dropdown">
+					<button onclick="DropDownFunction()" class="DDButton"></button>
+				</div>
+				<script src="js/dropDownMenu.js"></script>
+			</div>
+			<script src="js/stickyNav.js"></script>
+		</div>
+	</div>
+	<div class="main">
+		
+	</div>
+</body>
+</html> 
