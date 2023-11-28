@@ -30,7 +30,7 @@
         transition: 0.2s;
     }
 
-    .menu a:hover .fa-music{
+    .menu a:hover .fa-sitemap{
         color: rgb(255, 216, 157);
     }
 
@@ -42,7 +42,7 @@
         color: rgb(255, 124, 163);
     }
 
-    .menu a:hover .fa-right-to-bracket{
+    .menu a:hover .fa-cloud-arrow-down{
         color: rgb(124, 255, 157);
     }
 
@@ -542,7 +542,7 @@
         text-underline-offset: 4px;
     }
 
-    .menu_dropdown a:hover .fa-music{
+    .menu_dropdown a:hover .fa-sitemap{
         color: rgb(255, 216, 157);
     }
 
@@ -554,7 +554,7 @@
         color: rgb(255, 124, 163);
     }
 
-    .menu_dropdown a:hover .fa-right-to-bracket{
+    .menu_dropdown a:hover .fa-cloud-arrow-down{
         color: rgb(124, 255, 157);
     }
 
