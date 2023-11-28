@@ -120,18 +120,80 @@
             <div class="post-item">
                 <div class="post-item-wrap">
                     <a href="" class="post-link">
-                        <h1 class="post-title">HomeWork KFD</h1>
-                        <h2 class="post-content">Статичная веб страница с информацией по темам:</h2>
-						<p class="post-content">OSI & TCP/IP, SOAP, REST, выполненная в качестве домашнего задания по теме HTML-CSS-Self-Study на курсе Kotlin Full Stack Developer</p>
+                        <h1 class="post-title">SOAP</h1>
+						<p class="post-content">
+							Это протокол, по которому веб-сервисы взаимодействуют друг с другом или с клиентами. Название происходит от сокращения Simple Object Access Protocol («простой протокол доступа к объектам»).
+						</p>
+						<p class="post-content">
+							SOAP API — это веб-сервис, использующий протокол SOAP для обмена сообщениями между серверами и клиентами. При этом сообщения должны быть написаны на языке XML в соответствии со строгими стандартами, иначе сервер вернет ошибку.
+						</p>
                     </a>
                 </div>
             </div>
 			<div class="post-item">
                 <div class="post-item-wrap">
                     <a href="" class="post-link">
-						<h1 class="post-title">Cat Programmer</h1>
-						<img class="post-img" src="img/Cat-programmer - Imgur.gif">
+						<h1 class="post-title">SOAP протокол</h1>
+						<img class="post-img" src="img/soap-protocol.png">
 					</a>
+                </div>
+            </div>
+			<div class="post-item">
+                <div class="post-item-wrap">
+                    <a href="" class="post-link">
+						<h1 class="post-title">структура SOAP-сообщения</h1>
+						<img class="post-img" src="img/soap-structure.png">
+					</a>
+                </div>
+            </div>
+			<div class="post-item">
+                <div class="post-item-wrap">
+                    <a href="" class="post-link">
+                        <h1 class="post-title">Особенности SOAP API</h1>
+						<p class="post-content">
+							SOAP может использоваться с протоколами SMTP, FTP, HTTP, HTTPS. Чаще всего — с HTTP как с наиболее универсальным: его поддерживают все браузеры и серверы. Корректное SOAP-сообщение состоит из нескольких структурных элементов: Envelope, Header, Body и Fault.
+						</p>
+						<h1 class="post-title">Envelope («конверт»)</h1>
+						<p class="post-content">
+							Это корневой элемент. Определяет XML-документ как сообщение SOAP с помощью пространства имен xmlns_soap=»http://www.w3.org/2003/05/soap-envelope/». Если в определении будет указан другой адрес, сервер вернет ошибку.
+						</p>
+                    </a>
+                </div>
+            </div>
+			<div class="post-item">
+                <div class="post-item-wrap">
+                    <a href="" class="post-link">
+                        <h1 class="post-title">Header («заголовок»)</h1>
+						<p class="post-content">
+							Включает в себя атрибуты сообщения, связанные с конкретным приложением (аутентификация, проведение платежей и так далее). В заголовке могут использоваться три атрибута, которые указывают, как принимающая сторона должна обрабатывать сообщение, — mustUnderstand, actor и encodingStyle. Значение mustUnderstand — 1 или 0 — говорит принимающему приложению о том, следует ли распознавать заголовок в обязательном или опциональном порядке. Атрибут actor задает конкретную конечную точку для сообщения. Атрибут encodingStyle устанавливает специфическую кодировку для элемента. По умолчанию SOAP-сообщение не имеет определенной кодировки.
+						</p>
+                    </a>
+                </div>
+            </div>
+			<div class="post-item">
+                <div class="post-item-wrap">
+                    <a href="" class="post-link">
+                        <h1 class="post-title">Body («тело»)</h1>
+						<p class="post-content">
+							Сообщение, которое передает веб-приложение. Может содержать запрос к серверу или ответ от него. Пример сообщения, которое запрашивает стоимость ноутбука в онлайн-магазине
+						</p>
+						<h1 class="post-title">Fault («ошибка»)</h1>
+						<p class="post-content">
+							Опциональный элемент. Передает уведомление об ошибках, если они возникли в ходе обработки сообщения. Может содержать вложенные элементы, которые проясняют причину возникновения ошибки:
+						</p>
+						<p class="post-content">
+							faultcode — код неполадки;
+						</p>
+						<p class="post-content">
+							faultstring — «человекопонятное» описание проблемы;
+						</p>
+						<p class="post-content">
+							faultactor — информация о программном компоненте, который вызвал ошибку;
+						</p>
+						<p class="post-content">
+							detail — дополнительные сведения о месте возникновения неполадки.
+						</p>
+                    </a>
                 </div>
             </div>
 		</div>
