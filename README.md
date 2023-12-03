@@ -8,5 +8,3 @@ Repository with homework for practicing HTML, CSS and JavaScript. The site provi
 ---
 ### The site is hosted on github pages:
 # [LINK](https://vsek1ro.github.io/HTML-CSS-Self-Study/)
-
----
